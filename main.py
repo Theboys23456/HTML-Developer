@@ -5,9 +5,9 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 # Replace with your API ID, API Hash, and Bot Token
-API_ID = "26307640"
-API_HASH = "e8b89d09asase2e752c7034f497322f0e20a"
-BOT_TOKEN = "7566401266:AAGx24JpDcnUEAUvuWvKaJh2aT37gOp0MwI"
+API_ID = "21567814"
+API_HASH = "cd7dc5431d449fd795683c550d7bfb7e"
+BOT_TOKEN = "7598355196:AAEPiLJKsr2jIL3QAPkeLpS-w7OR2qKL48o"
 
 # Telegram channel where files will be forwarded
 CHANNEL_USERNAME = "Internationalstudyorganization"  # Replace with your channel username
