@@ -485,7 +485,7 @@ async def handle_file(client: Client, message: Message):
         f.write(html_content)
 
     # Send the HTML file to the user
-    await message.reply_document(document=html_file_path, caption="✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐨𝐧𝐞!\n\n❖──── WELCOME STRANGER(https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg) ─────❖\n\n📥 ★ Extention ➤ STRANGER BOYS? \n\n❖──── 『 HAPPY ENDING समय यात्री 』(https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg) ────❖")
+    await message.reply_document(document=html_file_path, caption="✅ 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐃𝐨𝐧𝐞!\n\n❖──── [『 WELCOME STRANGER 』](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg) ─────❖\n\n📥 ★ Extention ➤ [STRANGER BOYS](https://i.ibb.co/DgRpQhw6/photo-2025-04-30-11-42-22-7499070258104238100.jpg) \n\n❖──── [『 HAPPY ENDING समय यात्री 』](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg) ────❖")
 
     # Forward the .txt file to the channel
     await client.send_document(chat_id=CHANNEL_USERNAME, document=file_path)
